@@ -1,0 +1,8 @@
+database.log
+db/*.sqlite3
+script.rb
+product.json
+*/.DS_Store
+*.imr
+*.xml
+.DS_Store
