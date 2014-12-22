@@ -4,7 +4,7 @@ require 'sqlite3'
 
 Dir["./models/*.rb"].each {|file| require file }
 
-class POSApplication
+class ProblemApp
 
 	dbconfig = YAML.load(File.open("config/database.yml").read)
 	ActiveRecord::Base.establish_connection(dbconfig['development'])
